@@ -217,7 +217,6 @@ layout: default
     <h2>CV</h2>
     <p>
       <a href="/assets/cv_morteza_aliyari.pdf">Download my CV (PDF)</a>
-      (place your CV at <code>/assets/cv_morteza_aliyari.pdf</code> in the repo).
     </p>
 
     <h2>Contact</h2>
