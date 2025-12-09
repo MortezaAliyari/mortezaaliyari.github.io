@@ -1,138 +1,225 @@
 ---
-layout: home
-title: "Home"
+layout: default
 ---
 
-<p align="center">
-  <img src="/assets/img/profile.jpg" alt="Morteza Aliyari"
-       style="width:180px; border-radius:50%; margin-bottom: 1rem;">
-</p>
+<style>
+  .page-wrapper {
+    max-width: 1000px;
+    margin: 2rem auto;
+    display: flex;
+    gap: 2rem;
+  }
 
-PhD Candidate in Electrical Engineering, National Taiwan University  
-Robotics & Multi-Agent Systems · Safe RL · UAV & AMR Control
+  .sidebar {
+    flex: 0 0 260px;
+  }
 
-PhD Candidate in Electrical Engineering, National Taiwan University  
-Robotics & Multi-Agent Systems · Safe RL · UAV & AMR Control
+  .profile-card {
+    border: 1px solid #e0e0e0;
+    background: #fafafa;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  }
 
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+  }
 
-**PhD Candidate in Electrical Engineering, National Taiwan University**  
-**Robotics & Multi-Agent Systems · Safe RL · UAV & AMR Control**
+  .profile-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
 
-I work at the intersection of **nonlinear control**, **multi-agent deep reinforcement learning**, and **real-world robotic systems**. My recent projects focus on **safe TSY null-space RL for bearing-rigid quadrotor formations** and **multi-robot route planning for autonomous mobile robots (AMRs)** in ROS2-based systems.
+  .profile-role {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+  }
 
-- **Now:** Safe RL and bearing-rigid formation control for multi-UAV systems (NTU UAV group).
-- **Core tools:** ROS2, PX4, Gazebo, C++17, Python, data structures & algorithms.
-- **Keywords:** UAV formation control, safe RL, control barrier functions, multi-agent path planning, warehouse robotics.
+  .profile-location {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+  }
 
----
+  .profile-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 0.95rem;
+  }
 
-## Research Interests
+  .profile-links li {
+    margin: 0.35rem 0;
+  }
 
-- Multi-UAV formation control and bearing rigidity  
-- Safe reinforcement learning and control barrier functions  
-- Multi-agent route planning, deadlock detection and resolution  
-- ROS2, PX4, Gazebo, and real-world robotic experimentation  
-- High-performance C/C++ and Python implementations with solid data structures & algorithms foundations  
+  .profile-links span {
+    margin-right: 0.4rem;
+  }
 
----
+  .profile-links a {
+    text-decoration: none;
+  }
 
-## Selected Publications
+  .profile-links a:hover {
+    text-decoration: underline;
+  }
 
-*(A short “top papers” list in the spirit of Shuo’s site; you can later move the full list to a separate `/publications/` page if you like.)*
+  .main-content {
+    flex: 1;
+  }
 
-1. **M. Aliyari**, C.-H. Tsai, T.-K. Lin, E.-R. Wang, M.-L. Chiang, and L.-C. Fu,  
-   **“Safe TSY null-space deep reinforcement learning for bearing-rigid quadrotor formations,”**  
-   preprint, 2026.
+  .main-content h1 {
+    margin-top: 0;
+  }
 
-2. **M. Aliyari**, W.-K. Wong, Y. Bouteraa, S. Najafinia, A. Fekih, and S. Mobayen,  
-   **“Design and implementation of a constrained model predictive control approach for unmanned aerial vehicles,”**  
-   *IEEE Access*, vol. 10, pp. 91750–91762, 2022.  
-   doi: 10.1109/ACCESS.2022.3202020.
+  @media (max-width: 768px) {
+    .page-wrapper {
+      flex-direction: column;
+    }
+    .sidebar {
+      flex: 1 1 auto;
+    }
+  }
+</style>
 
-3. F. Bayat, S. Najafinia, and **M. Aliyari**,  
-   **“Mobile robots path planning: Electrostatic potential field approach,”**  
-   *Expert Systems with Applications*, vol. 100, pp. 68–78, 2018.  
-   doi: 10.1016/j.eswa.2018.01.050.
+<div class="page-wrapper">
 
-4. A. Khooshehmehri, S. Nasrollahi, and **M. Aliyari**,  
-   **“Chaos synchronization in Josephson junction using a nonlinear model predictive controller based on particle filter: Processor in the loop implementation,”**  
-   *International Journal of Industrial Electronics, Control and Optimization*, vol. 4, no. 3, pp. 355–366, Jul. 2021.
+  <aside class="sidebar">
+    <div class="profile-card">
+      <img src="/assets/img/profile.jpg" alt="Morteza Aliyari" class="profile-photo" />
 
-5. A. Khooshehmehri, S. Nasrollahi, and **M. Aliyari**,  
-   **“Chaos synchronization in Josephson junction using nonlinear robust adaptive controller: HIL implementation,”**  
-   *International Journal of Dynamics and Control*, vol. 10, pp. 1228–1239, 2022.  
-   doi: 10.1007/s40435-021-00870-9.
+      <div class="profile-name">Morteza Aliyari</div>
+      <div class="profile-role">
+        PhD Candidate · Robotics &amp; Control
+      </div>
+      <div class="profile-location">
+        📍 Taipei, Taiwan
+      </div>
 
----
+      <ul class="profile-links">
+        <li><span>✉️</span><a href="mailto:D12921b18@ntu.edu.tw">NTU Email</a></li>
+        <li><span>✉️</span><a href="mailto:mortezaliyari@gmail.com">Gmail</a></li>
+        <li><span>🔗</span><a href="https://www.linkedin.com/in/morteza-aliyari" target="_blank">LinkedIn</a></li>
+        <li><span>🐙</span><a href="https://github.com/MortezaAliyari" target="_blank">GitHub</a></li>
+        <li><span>🎓</span><a href="https://scholar.google.com" target="_blank">Google Scholar</a></li>
+        <li><span>📺</span><a href="https://www.youtube.com/@mortezaaliyari1055" target="_blank">YouTube</a></li>
+      </ul>
+    </div>
+  </aside>
 
-## Selected Projects
+  <section class="main-content">
+    <h1>About</h1>
+    <p>
+      I work at the intersection of <strong>nonlinear control</strong>,
+      <strong>multi-agent deep reinforcement learning</strong>, and
+      <strong>real-world robotic systems</strong>. My recent projects focus on
+      <strong>safe TSY null-space RL for bearing-rigid quadrotor formations</strong> and
+      <strong>multi-robot route planning for autonomous mobile robots (AMRs)</strong>
+      in ROS2-based systems.
+    </p>
+    <p>
+      Core tools: ROS2, PX4, Gazebo, C++17, Python, and solid data structures &amp;
+      algorithms. Keywords: UAV formation control, safe RL, control barrier
+      functions, multi-agent path planning, warehouse robotics.
+    </p>
 
-### Safe Null-Space RL for Bearing-Rigid UAV Formations
-- Combines a rigidity-based formation controller with deep RL in the TSY null space.  
-- Enables safe translation, scaling, and rotation of multi-UAV formations while preserving bearing rigidity.  
-- Implemented in C++/Python + ROS2, evaluated in cluttered and dynamic environments.
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Multi-UAV formation control and bearing rigidity</li>
+      <li>Safe reinforcement learning and control barrier functions</li>
+      <li>Multi-agent route planning, deadlock detection and resolution</li>
+      <li>ROS2, PX4, Gazebo, and real-world robotic experimentation</li>
+      <li>High-performance C/C++ and Python implementations</li>
+    </ul>
 
-### Multi-Robot Route Planner for AMRs (ROS2)
-- Designed a **GraphPlanner + AgentMonitor** pipeline for large-scale AMR fleets in warehouse-like environments.  
-- Implemented collision detection, deadlock resolution, and route validation for dozens of robots.  
-- Includes a benchmarking framework to compare planning algorithms at scale.  
-- Designed a modular code architecture for multi-agent operation in real deployments.
+    <h2>Selected Publications</h2>
+    <ol>
+      <li>
+        <strong>M. Aliyari</strong>, C.-H. Tsai, T.-K. Lin, E.-R. Wang, M.-L. Chiang, and L.-C. Fu,<br/>
+        <em>“Safe TSY null-space deep reinforcement learning for bearing-rigid quadrotor formations,”</em><br/>
+        preprint, 2026.
+      </li>
+      <li>
+        <strong>M. Aliyari</strong>, W.-K. Wong, Y. Bouteraa, S. Najafinia, A. Fekih, and S. Mobayen,<br/>
+        <em>“Design and implementation of a constrained model predictive control approach for unmanned aerial vehicles,”</em><br/>
+        <em>IEEE Access</em>, vol. 10, pp. 91750–91762, 2022. doi: 10.1109/ACCESS.2022.3202020.
+      </li>
+      <li>
+        F. Bayat, S. Najafinia, and <strong>M. Aliyari</strong>,<br/>
+        <em>“Mobile robots path planning: Electrostatic potential field approach,”</em><br/>
+        <em>Expert Systems with Applications</em>, vol. 100, pp. 68–78, 2018.
+        doi: 10.1016/j.eswa.2018.01.050.
+      </li>
+      <li>
+        A. Khooshehmehri, S. Nasrollahi, and <strong>M. Aliyari</strong>,<br/>
+        <em>“Chaos synchronization in Josephson junction using a nonlinear model predictive controller based on particle filter: Processor in the loop implementation,”</em><br/>
+        <em>International Journal of Industrial Electronics, Control and Optimization</em>, vol. 4, no. 3, pp. 355–366, Jul. 2021.
+      </li>
+      <li>
+        A. Khooshehmehri, S. Nasrollahi, and <strong>M. Aliyari</strong>,<br/>
+        <em>“Chaos synchronization in Josephson junction using nonlinear robust adaptive controller: HIL implementation,”</em><br/>
+        <em>International Journal of Dynamics and Control</em>, vol. 10, pp. 1228–1239, 2022.
+        doi: 10.1007/s40435-021-00870-9.
+      </li>
+    </ol>
 
-### [TODO] Additional Highlighted Project
-*(For example: your UAV MPC implementation from the IEEE Access paper, or a UAV formation demo with PX4/Gazebo.)*  
-- **Title:** `TODO: Add project title here`  
-- **One-line summary:** `TODO: Add 1–2 sentence description and key technologies.`
+    <h2>Selected Projects</h2>
 
----
+    <h3>Safe Null-Space RL for Bearing-Rigid UAV Formations</h3>
+    <ul>
+      <li>Combines a rigidity-based formation controller with deep RL in the TSY null space.</li>
+      <li>Enables safe translation, scaling, and rotation of multi-UAV formations while preserving bearing rigidity.</li>
+      <li>Implemented in C++/Python + ROS2, evaluated in cluttered and dynamic environments.</li>
+    </ul>
 
-## Experience  *(template – fill in details)*
+    <h3>Multi-Robot Route Planner for AMRs (ROS2)</h3>
+    <ul>
+      <li>Designed a <strong>GraphPlanner + AgentMonitor</strong> pipeline for large-scale AMR fleets in warehouse-like environments.</li>
+      <li>Implements collision detection, deadlock resolution, and route validation for dozens of robots.</li>
+      <li>Includes a benchmarking framework to compare planning algorithms at scale, with modular code architecture for real deployments.</li>
+    </ul>
 
-> This section mirrors the “CV” / work-experience flavor from Shuo’s site, but kept brief for the homepage.
+    <h3>UAV Model Predictive Control (IEEE Access)</h3>
+    <ul>
+      <li>Constrained MPC design for quadrotor trajectory tracking under input and state limitations.</li>
+      <li>Validated through simulation and real-time processor-in-the-loop experiments.</li>
+    </ul>
 
-- **PhD Candidate in Electrical Engineering** – National Taiwan University  
-  *Dates:* `TODO: e.g., 2023 – present`  
-  - Safe RL for bearing-rigid quadrotor formations and multi-UAV systems.  
-  - Formation control, CBF-based safety, and ROS2 / PX4 experiments.
+    <h2>Experience</h2>
+    <ul>
+      <li>
+        <strong>PhD Candidate in Electrical Engineering</strong> – National Taiwan University<br/>
+        Safe RL for bearing-rigid quadrotor formations and multi-UAV systems;
+        formation control, CBF-based safety, and ROS2 / PX4 experiments.
+      </li>
+      <li>
+        <strong>Robotics / Control Engineer (Autonomous Mobile Robots)</strong><br/>
+        Multi-robot path planning and fleet management for AMRs in warehouses;
+        ROS2-based route planner, deadlock resolution, and real-world deployment.
+      </li>
+    </ul>
 
-- **Robotics / Control Engineer (Autonomous Mobile Robots)**  
-  *Employer & Location:* `TODO: Company name, city/country`  
-  *Dates:* `TODO: e.g., 2021 – 2024`  
-  - Multi-robot path planning and fleet management for AMRs in warehouses.  
-  - ROS2-based route planner, deadlock resolution, and real-world deployment.
+    <h2>CV</h2>
+    <p>
+      <a href="/assets/cv_morteza_aliyari.pdf">Download my CV (PDF)</a>
+      (place your CV at <code>/assets/cv_morteza_aliyari.pdf</code> in the repo).
+    </p>
 
-- **Earlier Roles / Internships**  
-  `TODO: Add any previous research assistantships, internships, or industry roles you want to show (title, place, dates, 1–2 bullet points each).`
+    <h2>Contact</h2>
+    <p>
+      The fastest way to reach me is by email or LinkedIn. I am open to research
+      collaborations and internship opportunities in robotics, safe RL, and
+      multi-agent systems.
+    </p>
+  </section>
 
----
-
-## Teaching & Mentoring  *(optional, if you want this like Shuo’s site)*
-
-`TODO: Add any TA roles, guest lectures, mentoring of junior students, or outreach activities.`  
-Examples:
-- TA for control / robotics / programming courses.  
-- Mentoring undergraduate or master’s students in UAV / AMR projects.  
-- Outreach or competition coaching (e.g., robotics teams).
-
----
-
-## Talks & Service  *(optional)*
-
-`TODO: Add invited talks, seminar presentations, or notable conference talks.`  
-`TODO: Add reviewing activity (journals, conferences), organizing roles, or community contributions if you want to highlight them.`
-
----
-
-## CV
-
-- **[Download my CV (PDF)](/assets/cv_morteza_aliyari.pdf)**  
-  `TODO: Upload your CV to /assets/ and adjust the file name/path if needed.`
-
----
-
-## Contact
-
-- **Email:** [D12921b18@ntu.edu.tw](mailto:D12921b18@ntu.edu.tw)  
-- **GitHub:** [@your-username](https://github.com/your-username)  
-  `TODO: replace "your-username" with your actual GitHub handle.`  
-- **LinkedIn:** [https://www.linkedin.com/in/morteza-aliyari](https://www.linkedin.com/in/morteza-aliyari)  
-- **YouTube:** [https://www.youtube.com/@mortezaaliyari1055](https://www.youtube.com/@mortezaaliyari1055)
+</div>
