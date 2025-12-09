@@ -3,8 +3,13 @@ layout: default
 ---
 
 <style>
+  /* Override Minima's default narrow wrapper */
+  .wrapper {
+    max-width: 1150px;   /* you can tweak this: 1100–1200 is fine */
+    padding: 0 1.5rem;
+  }
+
   .page-wrapper {
-    max-width: 1000px;
     margin: 2rem auto;
     display: flex;
     gap: 2rem;
@@ -90,6 +95,7 @@ layout: default
     }
   }
 </style>
+
 
 <div class="page-wrapper">
 
