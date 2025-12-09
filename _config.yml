@@ -1,3 +1,13 @@
 title: "Morteza Aliyari"
 description: "UAVs, Multi-Agent Systems, Safe RL, ROS2"
 theme: minima
+
+author:
+  name: "Morteza Aliyari"
+  email: "D12921b18@ntu.edu.tw"
+  github_username: "your-username"        # TODO: replace with your real GitHub username
+  linkedin: "https://www.linkedin.com/in/morteza-aliyari"
+  youtube: "https://www.youtube.com/@mortezaaliyari1055"
+
+# Optional: show post excerpts on list pages (if you later add blog posts)
+show_excerpts: true
