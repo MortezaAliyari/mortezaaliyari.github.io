@@ -1,9 +1,23 @@
 ---
 layout: home
-title: "Morteza Aliyari"
+title: "Home"
+---
+---
+layout: home
+title: "Home"
 ---
 
-# Morteza Aliyari
+<p align="center">
+  <img src="/assets/img/profile.jpg" alt="Morteza Aliyari"
+       style="width:180px; border-radius:50%; margin-bottom: 1rem;">
+</p>
+
+PhD Candidate in Electrical Engineering, National Taiwan University  
+Robotics & Multi-Agent Systems · Safe RL · UAV & AMR Control
+
+PhD Candidate in Electrical Engineering, National Taiwan University  
+Robotics & Multi-Agent Systems · Safe RL · UAV & AMR Control
+
 
 **PhD Candidate in Electrical Engineering, National Taiwan University**  
 **Robotics & Multi-Agent Systems · Safe RL · UAV & AMR Control**
