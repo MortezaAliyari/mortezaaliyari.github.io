@@ -2,10 +2,6 @@
 layout: home
 title: "Home"
 ---
----
-layout: home
-title: "Home"
----
 
 <p align="center">
   <img src="/assets/img/profile.jpg" alt="Morteza Aliyari"
