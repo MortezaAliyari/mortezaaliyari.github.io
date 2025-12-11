@@ -123,20 +123,45 @@ layout: default
   </aside>
 
   <section class="main-content">
-    <h1>About</h1>
-    <p>
-      I work at the intersection of <strong>nonlinear control</strong>,
-      <strong>multi-agent deep reinforcement learning</strong>, and
-      <strong>real-world robotic systems</strong>. My recent projects focus on
-      <strong>safe TSY null-space RL for bearing-rigid quadrotor formations</strong> and
-      <strong>multi-robot route planning for autonomous mobile robots (AMRs)</strong>
-      in ROS2-based systems.
-    </p>
-    <p>
-      Core tools: ROS2, PX4, Gazebo, C++17, Python, and solid data structures &amp;
-      algorithms. Keywords: UAV formation control, safe RL, control barrier
-      functions, multi-agent path planning, warehouse robotics.
-    </p>
+   <h1>About Me</h1>
+
+  <p>
+    I’m a PhD candidate in Electrical Engineering at
+    <a href="https://graduate.ee.ntu.edu.tw/web/about/about.php?id=198" target="_blank">National Taiwan University (NTU)</a>,
+    where I help lead the UAV lab under the supervision of <a  href="https://www.ntueeacl.com/25351235662594525480-advisor.html" target="_blank">Prof. Li-Chen Fu</a>.
+    Before starting my PhD, I worked for almost two years as a localization engineer on
+    self-driving vehicles, and for more than three years as a robotics software and
+    embedded-systems developer outside Taiwan.
+  </p>
+
+  <p>
+    During my B.Eng in Electrical Engineering (Control), I co-founded the
+    <a href="https://www.znu.ac.ir/pg/12243" target="_blank">Zanjan Robotics Association</a>.
+  </p>
+
+  <p>
+    My current research focuses on
+    <a href="https://mitpress.mit.edu/9780262380508/multi-agent-reinforcement-learning/g" target="_blank">
+      multi-agent deep reinforcement learning
+    </a>
+    and its safe deployment in real-world environments. We work with both stochastic
+    and deterministic algorithms and validate them on real UAV platforms, making our
+    projects relevant not only for NTU students but also for companies and government
+    agencies. Our group builds custom UAVs and LiDAR systems for online detection of
+    moving and static obstacles, which drives us to use learning-based methods for
+    perception and decision-making. In short, we work across the full stack:
+    <strong>hardware</strong> (PCBs, wiring, embedded systems),
+    <strong>software</strong> (algorithms), and
+    <strong>mechanical design</strong> (e.g., carbon-fiber structures).
+  </p>
+
+  <p>
+    Beyond robotics, I am also passionate about
+    <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank">IoT</a>
+    and embedded systems, drawing on my earlier experience as an embedded-systems
+    developer.
+  </p>
+
 
     <h2>Research Interests</h2>
     <ul>
