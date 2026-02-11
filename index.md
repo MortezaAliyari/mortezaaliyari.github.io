@@ -23,7 +23,7 @@ I’m a PhD candidate in Electrical Engineering at **National Taiwan University 
   <div class="card">
     <div class="video-embed">
       <iframe
-        src="https://youtu.be/cEvN69tPWAc"
+        src="https://www.youtube.com/embed/cEvN69tPWAc"
         title="UAV Mapping with RGBD Camera"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
