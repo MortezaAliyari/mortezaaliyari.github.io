@@ -7,7 +7,7 @@ permalink: /publications/
 # Selected Publications
 
 1. **M. Aliyari**, C.-H. Tsai, T.-K. Lin, E.-R. Wang, M.-L. Chiang, and L.-C. Fu,  
-   *“Safe TSY null-space deep reinforcement learning for bearing-rigid quadrotor formations,”* preprint, 2026.
+   *“Safe TSY null-space deep reinforcement learning for bearing-rigid quadrotor formations,”* IFAC, preprint, 2026.
 
 2. **M. Aliyari**, W.-K. Wong, Y. Bouteraa, S. Najafinia, A. Fekih, and S. Mobayen,  
    *“Design and implementation of a constrained model predictive control approach for unmanned aerial vehicles,”*  
