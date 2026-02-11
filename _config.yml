@@ -11,3 +11,9 @@ author:
 
 # Optional: show post excerpts on list pages (if you later add blog posts)
 show_excerpts: true
+
+header_pages:
+  - videos.md
+  - projects.md
+  - publications.md
+  - cv.md

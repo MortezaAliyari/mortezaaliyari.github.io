@@ -1,255 +1,64 @@
 ---
-layout: default
+layout: profile
+title: Home
+permalink: /
 ---
 
-<style>
-  /* Override Minima's default narrow wrapper */
-  .wrapper {
-    max-width: 1150px;   /* you can tweak this: 1100–1200 is fine */
-    padding: 0 1.5rem;
-  }
+# About
 
-  .page-wrapper {
-    margin: 2rem auto;
-    display: flex;
-    gap: 2rem;
-  }
+I’m a PhD candidate in Electrical Engineering at **National Taiwan University (NTU)**, working on **multi-agent RL**, **safe control**, and **real-world UAV experiments**. Before my PhD, I worked on **localization for self-driving vehicles** and **robotics software / embedded systems**.
 
-  .sidebar {
-    flex: 0 0 260px;
-  }
+## What I build (quick snapshot)
 
-  .profile-card {
-    border: 1px solid #e0e0e0;
-    background: #fafafa;
-    padding: 1.5rem;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
-  }
+- **UAV autonomy**: safe learning + formation control + onboard perception
+- **AMR fleet autonomy**: route planning, deadlock resolution, validation pipelines (ROS2)
+- **Robust systems**: performance-focused C++ implementations and real deployment constraints
 
-  .profile-photo {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-  }
+---
 
-  .profile-name {
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-bottom: 0.25rem;
-  }
+## Featured Videos & Demos
 
-  .profile-role {
-    font-size: 0.95rem;
-    color: #555;
-    margin-bottom: 0.75rem;
-  }
+<div class="video-grid">
 
-  .profile-location {
-    font-size: 0.9rem;
-    color: #555;
-    margin-bottom: 0.75rem;
-  }
-
-  .profile-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    font-size: 0.95rem;
-  }
-
-  .profile-links li {
-    margin: 0.35rem 0;
-  }
-
-  .profile-links span {
-    margin-right: 0.4rem;
-  }
-
-  .profile-links a {
-    text-decoration: none;
-  }
-
-  .profile-links a:hover {
-    text-decoration: underline;
-  }
-
-  .main-content {
-    flex: 1;
-  }
-
-  .main-content h1 {
-    margin-top: 0;
-  }
-
-  @media (max-width: 768px) {
-    .page-wrapper {
-      flex-direction: column;
-    }
-    .sidebar {
-      flex: 1 1 auto;
-    }
-  }
-</style>
-
-
-<div class="page-wrapper">
-
-  <aside class="sidebar">
-    <div class="profile-card">
-      <img src="/assets/img/profile.jpg" alt="Morteza Aliyari" class="profile-photo" />
-
-      <div class="profile-name">Morteza Aliyari</div>
-      <div class="profile-role">
-        PhD Candidate · Robotics &amp; Control
-      </div>
-      <div class="profile-location">
-        📍 Taipei, Taiwan
-      </div>
-
-      <ul class="profile-links">
-        <li><span>✉️</span><a href="mailto:D12921b18@ntu.edu.tw">NTU Email</a></li>
-        <li><span>✉️</span><a href="mailto:mortezaliyari@gmail.com">Gmail</a></li>
-        <li><span>🔗</span><a href="https://www.linkedin.com/in/morteza-aliyari" target="_blank">LinkedIn</a></li>
-        <li><span>🐙</span><a href="https://github.com/MortezaAliyari" target="_blank">GitHub</a></li>
-        <li><span>🎓</span><a href="https://scholar.google.com" target="_blank">Google Scholar</a></li>
-        <li><span>📺</span><a href="https://www.youtube.com/@mortezaaliyari1055" target="_blank">YouTube</a></li>
-      </ul>
+  <div class="card">
+    <div class="video-embed">
+      <iframe
+        src="https://www.youtube.com/embed/YOUTUBE_ID_1"
+        title="UAV Mapping with RealSense"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
-  </aside>
+    <div class="card-body">
+      <h3>UAV Mapping with Intel RealSense (Depth → Map)</h3>
+      <p><strong>Problem:</strong> GPS-denied mapping using onboard depth sensing.</p>
+      <p><strong>What I built:</strong> ROS pipeline from depth → point cloud → mapping + tuning for stability.</p>
+      <p><strong>Why it matters:</strong> Enables reliable autonomy and inspection without external infrastructure.</p>
+      <div class="tags">
+        <span class="tag">UAV</span><span class="tag">RealSense</span><span class="tag">ROS</span><span class="tag">Mapping</span>
+      </div>
+    </div>
+  </div>
 
-  <section class="main-content">
-   <h1>About Me</h1>
-
-  <p>
-    I’m a PhD candidate in Electrical Engineering at
-    <a href="https://graduate.ee.ntu.edu.tw/web/about/about.php?id=198" target="_blank">National Taiwan University (NTU)</a>,
-    where I help lead the UAV lab under the supervision of <a  href="https://www.ntueeacl.com/25351235662594525480-advisor.html" target="_blank">Prof. Li-Chen Fu</a>.
-    Before starting my PhD, I worked for almost two years as a localization engineer on
-    self-driving vehicles, and for more than three years as a robotics software and
-    embedded-systems developer outside Taiwan.
-  </p>
-
-  <p>
-    During my B.Eng in Electrical Engineering (Control), I co-founded the
-    <a href="https://www.znu.ac.ir/pg/12243" target="_blank">Zanjan Robotics Association</a>.
-  </p>
-
-  <p>
-    My current research focuses on
-    <a href="https://mitpress.mit.edu/9780262380508/multi-agent-reinforcement-learning/g" target="_blank">
-      multi-agent deep reinforcement learning
-    </a>
-    and its safe deployment in real-world environments. We work with both stochastic
-    and deterministic algorithms and validate them on real UAV platforms, making our
-    projects relevant not only for NTU students but also for companies and government
-    agencies. Our group builds custom UAVs and LiDAR systems for online detection of
-    moving and static obstacles, which drives us to use learning-based methods for
-    perception and decision-making. In short, we work across the full stack:
-    <strong>hardware</strong> (PCBs, wiring, embedded systems),
-    <strong>software</strong> (algorithms), and
-    <strong>mechanical design</strong> (e.g., carbon-fiber structures).
-  </p>
-
-  <p>
-    Beyond robotics, I am also passionate about
-    <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank">IoT</a>
-    and embedded systems, drawing on my earlier experience as an embedded-systems
-    developer.
-  </p>
-
-
-    <h2>Research Interests</h2>
-    <ul>
-      <li>Multi-UAV formation control and bearing rigidity</li>
-      <li>Safe reinforcement learning and control barrier functions</li>
-      <li>Multi-agent route planning, deadlock detection and resolution</li>
-      <li>ROS2, PX4, Gazebo, and real-world robotic experimentation</li>
-      <li>High-performance C/C++ and Python implementations</li>
-    </ul>
-
-    <h2>Selected Publications</h2>
-    <ol>
-      <li>
-        <strong>M. Aliyari</strong>, C.-H. Tsai, T.-K. Lin, E.-R. Wang, M.-L. Chiang, and L.-C. Fu,<br/>
-        <em>“Safe TSY null-space deep reinforcement learning for bearing-rigid quadrotor formations,”</em><br/>
-        preprint, 2026.
-      </li>
-      <li>
-        <strong>M. Aliyari</strong>, W.-K. Wong, Y. Bouteraa, S. Najafinia, A. Fekih, and S. Mobayen,<br/>
-        <em>“Design and implementation of a constrained model predictive control approach for unmanned aerial vehicles,”</em><br/>
-        <em>IEEE Access</em>, vol. 10, pp. 91750–91762, 2022. doi: 10.1109/ACCESS.2022.3202020.
-      </li>
-      <li>
-        F. Bayat, S. Najafinia, and <strong>M. Aliyari</strong>,<br/>
-        <em>“Mobile robots path planning: Electrostatic potential field approach,”</em><br/>
-        <em>Expert Systems with Applications</em>, vol. 100, pp. 68–78, 2018.
-        doi: 10.1016/j.eswa.2018.01.050.
-      </li>
-      <li>
-        A. Khooshehmehri, S. Nasrollahi, and <strong>M. Aliyari</strong>,<br/>
-        <em>“Chaos synchronization in Josephson junction using a nonlinear model predictive controller based on particle filter: Processor in the loop implementation,”</em><br/>
-        <em>International Journal of Industrial Electronics, Control and Optimization</em>, vol. 4, no. 3, pp. 355–366, Jul. 2021.
-      </li>
-      <li>
-        A. Khooshehmehri, S. Nasrollahi, and <strong>M. Aliyari</strong>,<br/>
-        <em>“Chaos synchronization in Josephson junction using nonlinear robust adaptive controller: HIL implementation,”</em><br/>
-        <em>International Journal of Dynamics and Control</em>, vol. 10, pp. 1228–1239, 2022.
-        doi: 10.1007/s40435-021-00870-9.
-      </li>
-    </ol>
-
-    <h2>Selected Projects</h2>
-
-    <h3>Safe Null-Space RL for Bearing-Rigid UAV Formations</h3>
-    <ul>
-      <li>Combines a rigidity-based formation controller with deep RL in the TSY null space.</li>
-      <li>Enables safe translation, scaling, and rotation of multi-UAV formations while preserving bearing rigidity.</li>
-      <li>Implemented in C++/Python + ROS2, evaluated in cluttered and dynamic environments.</li>
-    </ul>
-
-    <h3>Multi-Robot Route Planner for AMRs (ROS2)</h3>
-    <ul>
-      <li>Designed a <strong>GraphPlanner + AgentMonitor</strong> pipeline for large-scale AMR fleets in warehouse-like environments.</li>
-      <li>Implements collision detection, deadlock resolution, and route validation for dozens of robots.</li>
-      <li>Includes a benchmarking framework to compare planning algorithms at scale, with modular code architecture for real deployments.</li>
-    </ul>
-
-    <h3>UAV Model Predictive Control (IEEE Access)</h3>
-    <ul>
-      <li>Constrained MPC design for quadrotor trajectory tracking under input and state limitations.</li>
-      <li>Validated through simulation and real-time processor-in-the-loop experiments.</li>
-    </ul>
-
-    <h2>Experience</h2>
-    <ul>
-      <li>
-        <strong>PhD Candidate in Electrical Engineering</strong> – National Taiwan University<br/>
-        Safe RL for bearing-rigid quadrotor formations and multi-UAV systems;
-        formation control, CBF-based safety, and ROS2 / PX4 experiments.
-      </li>
-      <li>
-        <strong>Robotics / Control Engineer (Autonomous Mobile Robots)</strong><br/>
-        Multi-robot path planning and fleet management for AMRs in warehouses;
-        ROS2-based route planner, deadlock resolution, and real-world deployment.
-      </li>
-    </ul>
-
-    <h2>CV</h2>
-    <p>
-      <a href="/assets/cv_morteza_aliyari.pdf">Download my CV (PDF)</a>
-    </p>
-
-    <h2>Contact</h2>
-    <p>
-      The fastest way to reach me is by email or LinkedIn. I am open to research
-      collaborations and internship opportunities in robotics, safe RL, and
-      multi-agent systems.
-    </p>
-  </section>
+  <div class="card">
+    <div class="video-embed">
+      <iframe
+        src="https://www.youtube.com/embed/YOUTUBE_ID_2"
+        title="AMR Navigation Accuracy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="card-body">
+      <h3>AMR Navigation Upgrade (New Sensor → Higher Accuracy)</h3>
+      <p><strong>Problem:</strong> Improve localization robustness in warehouse-like environments.</p>
+      <p><strong>What I did:</strong> Integrated a new sensor and fused it into the navigation stack.</p>
+      <p><strong>Result:</strong> More stable pose and smoother navigation under real constraints.</p>
+      <div class="tags">
+        <span class="tag">AMR</span><span class="tag">Localization</span><span class="tag">Sensor Fusion</span><span class="tag">ROS2</span>
+      </div>
+    </div>
+  </div>
 
 </div>
+
+**See all videos →** [/videos/](/videos/)  
+**Projects →** [/projects/](/projects/) · **Publications →** [/publications/](/publications/) · **CV →** [/cv/](/cv/)
