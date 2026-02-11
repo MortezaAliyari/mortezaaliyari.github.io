@@ -72,6 +72,9 @@ I’m a PhD candidate in Electrical Engineering at **National Taiwan University 
 
 
 </div>
-
-**See all videos →** [/videos/](/videos/)  
-**Projects →** [/projects/](/projects/) · **Publications →** [/publications/](/publications/) · **CV →** [/cv/](/cv/)
+<div class="cta-links">
+  <a class="cta" href="{{ '/videos/' | relative_url }}">Videos</a>
+  <a class="cta" href="{{ '/projects/' | relative_url }}">Projects</a>
+  <a class="cta" href="{{ '/publications/' | relative_url }}">Publications</a>
+  <a class="cta" href="{{ '/cv/' | relative_url }}">CV</a>
+</div>
