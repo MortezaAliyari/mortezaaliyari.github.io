@@ -6,7 +6,7 @@ permalink: /videos/
 
 # Videos & Demos
 
-Here are selected demonstrations of my work in UAV autonomy, mapping, and mobile robot navigation.
+Here are selected demonstrations of my work in robotics and UAV autonomy, mapping, and mobile robot navigation.
 
 <div class="video-grid">
 
@@ -18,6 +18,15 @@ Here are selected demonstrations of my work in UAV autonomy, mapping, and mobile
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
+
+    <div class="project-update">
+      <img
+        src="{{ '/assets/img/last-update-jun_2025_icon.png' | relative_url }}"
+        alt="Last update icon"
+        class="project-update-icon" />
+      <span class="project-update-text">Last update: Month YYYY</span>
+    </div>
+
     <div class="card-body">
       <h3>UAV Mapping with RGBD Camera (Depth → Map)</h3>
       <p><strong>Problem:</strong> GPS-denied mapping using onboard depth sensing.</p>
@@ -36,6 +45,14 @@ Here are selected demonstrations of my work in UAV autonomy, mapping, and mobile
         title="AMR Navigation with Task Planning (Behavior Trees)"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
+    </div>
+
+    <div class="project-update">
+      <img
+        src="{{ '/assets/img/last-update-sep_2022_icon.png' | relative_url }}"
+        alt="Last update icon"
+        class="project-update-icon" />
+      <span class="project-update-text">Last update: Month YYYY</span>
     </div>
 
     <div class="card-body">
