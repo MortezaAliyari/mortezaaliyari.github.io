@@ -24,7 +24,7 @@ Here are selected demonstrations of my work in robotics and UAV autonomy, mappin
         src="{{ '/assets/img/last-update-jun_2025_icon.png' | relative_url }}"
         alt="Last update icon"
         class="project-update-icon" />
-      <span class="project-update-text">Last update: Month YYYY</span>
+      <!-- <span class="project-update-text">Last update: Month YYYY</span> -->
     </div>
 
     <div class="card-body">
@@ -52,7 +52,7 @@ Here are selected demonstrations of my work in robotics and UAV autonomy, mappin
         src="{{ '/assets/img/last-update-sep_2022_icon.png' | relative_url }}"
         alt="Last update icon"
         class="project-update-icon" />
-      <span class="project-update-text">Last update: Month YYYY</span>
+      <!-- <span class="project-update-text">Last update: Month YYYY</span> -->
     </div>
 
     <div class="card-body">
