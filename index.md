@@ -34,7 +34,7 @@ I’m a PhD candidate in Electrical Engineering at **National Taiwan University 
         src="{{ '/assets/img/last-update-jun_2025_icon.png' | relative_url }}"
         alt="Last update icon"
         class="project-update-icon" />
-      <!-- <span class="project-update-text">Last update: Month YYYY</span> -->
+      <span class="project-update-text">Last update: Month YYYY</span>
     </div>
 
     <div class="card-body">
