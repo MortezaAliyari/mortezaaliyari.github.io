@@ -13,7 +13,7 @@ Here are selected demonstrations of my work in robotics and UAV autonomy, mappin
   <div class="card">
     <div class="video-embed">
       <iframe
-        src="https://www.youtube.com/watch?v=3yPShnmhooA"
+        src="https://www.youtube.com/embed/3yPShnmhooA"
         title="RVO->Real-time avoidance capabilities in dynamic obstacles environments"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
@@ -33,7 +33,7 @@ Here are selected demonstrations of my work in robotics and UAV autonomy, mappin
       <p><strong>What I built:</strong> A ROS1/Gazebo/C++ multi-agent simulation framework inspired by reciprocal collision avoidance for cooperative robot navigation.</p>
       <p><strong>Why it matters:</strong> It built my foundation in swarm robotics, decentralized avoidance, and scalable multi-agent system design.</p>
       <div class="tags">
-        <span class="tag">UAV</span><span class="tag">RealSense</span><span class="tag">ROS</span><span class="tag">Mapping</span>
+        <span class="tag">AMR</span><span class="tag">Lidar</span><span class="tag">ROS1</span><span class="tag">C++</span>
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@ Here are selected demonstrations of my work in robotics and UAV autonomy, mappin
     <div class="card">
     <div class="video-embed">
       <iframe
-        src="https://www.youtube.com/watch?v=XaLbEKf8UhA"
+        src="https://www.youtube.com/embed/XaLbEKf8UhA"
         title="Multi Robots Navigation ROS Noetic and Gazebo"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
@@ -61,7 +61,7 @@ Here are selected demonstrations of my work in robotics and UAV autonomy, mappin
       <p><strong>What I built:</strong> I built a dual-TurtleBot3 navigation project in ROS1 using C++, Gazebo 11, and Ubuntu Focal, where two different robots operate in the same simulated environment. The core focus was creating a clean multi-agent structure by properly separating each robot’s topics and navigation stack.</p>
       <p><strong>Why it matters:</strong> This project gave me the hands-on foundation for future multi-agent robotics systems. It was an early but essential step toward scalable robot coordination, where the real challenge is not just motion—but architecture, communication, and system reliability.</p>
       <div class="tags">
-        <span class="tag">UAV</span><span class="tag">RealSense</span><span class="tag">ROS</span><span class="tag">Mapping</span>
+        <span class="tag">Obstacle-Avoidance</span><span class="tag">Multiagent</span><span class="tag">ROS</span><span class="tag">RealTime</span>
       </div>
     </div>
   </div>
