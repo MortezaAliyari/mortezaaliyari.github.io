@@ -28,12 +28,10 @@ Here are selected demonstrations of my work in robotics and UAV autonomy, mappin
     </div>
 
     <div class="card-body">
-      <h3>UAV Mapping with RGBD Camera (Depth → Map)</h3>
-      <p><strong>Problem:</strong> How an agent could avoid dynamic agents or obstacles in dense environments?.</p>
-      <p><strong>What I built:</strong> Real time baseline to compare with learning methods.</p>
-      <p><strong>Why it matters:</strong> The main motivation for RVO is this:
-
-to enable real-time, decentralized collision avoidance among multiple moving agents in dynamic, dense environments..</p>
+      <h3>Multi-agent obstacle-avoidance simulation framework</h3>
+      <p><strong>Problem:</strong> How can multiple robots maintain safe, coordinated motion in dynamic and crowded environments without relying too heavily on a single leader?</p>
+      <p><strong>What I built:</strong> A ROS1/Gazebo/C++ multi-agent simulation framework inspired by reciprocal collision avoidance for cooperative robot navigation.</p>
+      <p><strong>Why it matters:</strong> It built my foundation in swarm robotics, decentralized avoidance, and scalable multi-agent system design.</p>
       <div class="tags">
         <span class="tag">UAV</span><span class="tag">RealSense</span><span class="tag">ROS</span><span class="tag">Mapping</span>
       </div>
@@ -58,7 +56,7 @@ to enable real-time, decentralized collision avoidance among multiple moving age
     </div>
 
     <div class="card-body">
-      <h3>UAV Mapping with RGBD Camera (Depth → Map)</h3>
+      <h3>Multi Robots Navigation ROS Noetic and Gazebo</h3>
       <p><strong>Problem:</strong> What happens when one robot is no longer enough? The jump from single-robot navigation to multi-agent systems is where robotics becomes far more realistic—and far more challenging. Managing multiple robots in ROS1 means handling separate topics, namespaces, and control flows without interference.</p>
       <p><strong>What I built:</strong> I built a dual-TurtleBot3 navigation project in ROS1 using C++, Gazebo 11, and Ubuntu Focal, where two different robots operate in the same simulated environment. The core focus was creating a clean multi-agent structure by properly separating each robot’s topics and navigation stack.</p>
       <p><strong>Why it matters:</strong> This project gave me the hands-on foundation for future multi-agent robotics systems. It was an early but essential step toward scalable robot coordination, where the real challenge is not just motion—but architecture, communication, and system reliability.</p>
