@@ -23,6 +23,46 @@ I’m a PhD candidate in Electrical Engineering at **National Taiwan University 
   <div class="card">
     <div class="video-embed">
       <iframe
+        src="https://www.youtube.com/embed/XGK2hHG4eOU"
+        title="Safe Bearing-Only UAV Formation with CBF-QP Obstacle Avoidance (IFAC 2026)"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <div class="project-update">
+      <img
+        src="{{ '/assets/img/last-update-dec_2025_icon.png' | relative_url }}"
+        alt="Last update icon"
+        class="project-update-icon" />
+      <!-- <span class="project-update-text">Last update: Month YYYY</span> -->
+    </div>
+
+    <div class="card-body">
+      <h3>Safe Bearing-Only UAV Formation with CBF-QP Obstacle Avoidance</h3>
+
+      <p><strong>Problem:</strong> How can a team of UAVs preserve a rigid formation while navigating cluttered environments and avoiding collisions with obstacles, without relying on relative-position measurements?</p>
+
+      <p><strong>What I built:</strong> The end-to-end system architecture for a multi-UAV formation — a <strong>distributed bearing-only sensing controller</strong> for formation maintenance, combined with a <strong>CBF-QP</strong> (Control Barrier Function – Quadratic Programming) safety filter for real-time obstacle avoidance.</p>
+
+      <p><strong>How I validated it:</strong> First verified in simulation, then transferred to real-world flight experiments. Successful task execution on hardware validates the integrated <strong>navigation, localization, distributed control, and sensing</strong> pipeline shown in this video.</p>
+
+      <p><strong>Impact:</strong> Accepted to <strong>IFAC 2026 (Busan)</strong>.</p>
+
+      <div class="tags">
+        <span class="tag">UAV</span>
+        <span class="tag">Formation Control</span>
+        <span class="tag">Bearing-Only</span>
+        <span class="tag">CBF-QP</span>
+        <span class="tag">Multi-Agent</span>
+        <span class="tag">Safe Control</span>
+        <span class="tag">ROS</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="video-embed">
+      <iframe
         src="https://www.youtube.com/embed/cEvN69tPWAc"
         title="UAV Mapping with RGBD Camera"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
